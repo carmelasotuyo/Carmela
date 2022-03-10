@@ -1,0 +1,166 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646948029916' stop='1646948073701'>
+    <name>Filtros</name>
+    <title>Filtros</title>
+    <test-cases>
+        <test-case start='1646948029916' status='passed' stop='1646948056995'>
+            <name>Debería abrir el sitio e ingresar a la categoría Women</name>
+            <title>Debería abrir el sitio e ingresar a la categoría Women</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646948030182' status='passed' stop='1646948030182'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948045894' status='passed' stop='1646948045894'>
+                    <name>Ingresar a la categoría Women</name>
+                    <title>Ingresar a la categoría Women</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948047630' status='passed' stop='1646948047630'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948056897' status='passed' stop='1646948056897'>
+                    <name>Obtener nombre de la categoría</name>
+                    <title>Obtener nombre de la categoría</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646948056995' status='passed' stop='1646948064073'>
+            <name>Debería seleccionar layered_category_8</name>
+            <title>Debería seleccionar layered_category_8</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646948056996' status='passed' stop='1646948056996'>
+                    <name>Seleccionar checkbox: label[for=layered_category_8]</name>
+                    <title>Seleccionar checkbox: label[for=layered_category_8]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948057027' status='passed' stop='1646948057027'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948057402' status='passed' stop='1646948057402'>
+                    <name>Verificar que el filtro: layered_category_8 fue aplicado</name>
+                    <title>Verificar que el filtro: layered_category_8 fue aplicado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646948064080' status='passed' stop='1646948068087'>
+            <name>Debería seleccionar layered_id_attribute_group_3</name>
+            <title>Debería seleccionar layered_id_attribute_group_3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646948064080' status='passed' stop='1646948064080'>
+                    <name>Seleccionar checkbox: label[for=layered_id_attribute_group_3]</name>
+                    <title>Seleccionar checkbox: label[for=layered_id_attribute_group_3]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948064116' status='passed' stop='1646948064116'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948064300' status='passed' stop='1646948064300'>
+                    <name>Verificar que el filtro: layered_id_attribute_group_3 fue aplicado</name>
+                    <title>Verificar que el filtro: layered_id_attribute_group_3 fue aplicado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646948068088' status='passed' stop='1646948073634'>
+            <name>Debería seleccionar layered_id_attribute_group_16</name>
+            <title>Debería seleccionar layered_id_attribute_group_16</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646948068089' status='passed' stop='1646948068089'>
+                    <name>Seleccionar checkbox: label[for=layered_id_attribute_group_16]</name>
+                    <title>Seleccionar checkbox: label[for=layered_id_attribute_group_16]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948068153' status='passed' stop='1646948068153'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948068504' status='passed' stop='1646948068504'>
+                    <name>Verificar que el filtro: layered_id_attribute_group_16 fue aplicado</name>
+                    <title>Verificar que el filtro: layered_id_attribute_group_16 fue aplicado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646948073635' status='passed' stop='1646948073700'>
+            <name>Debería verificar el resultado mostrado</name>
+            <title>Debería verificar el resultado mostrado</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646948073637' status='passed' stop='1646948073637'>
+                    <name>Obtener nombre del producto resultado</name>
+                    <title>Obtener nombre del producto resultado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

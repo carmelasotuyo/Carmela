@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646948030053' stop='1646948068823'>
+    <name>Navegación básica</name>
+    <title>Navegación básica</title>
+    <test-cases>
+        <test-case start='1646948030056' status='passed' stop='1646948049856'>
+            <name>Comparar Header de página inicial</name>
+            <title>Comparar Header de página inicial</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646948030391' status='passed' stop='1646948030391'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0d9ce2f3-0c4e-47c4-82cb-c70db9e3e9dd-attachment.png' type='image/png' size='490632'/>
+            </attachments>
+        </test-case>
+        <test-case start='1646948049858' status='passed' stop='1646948060812'>
+            <name>Comparar página de categoría Casual Dresses</name>
+            <title>Comparar página de categoría Casual Dresses</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646948050109' status='passed' stop='1646948050109'>
+                    <name>Ingresar a la categoría Casual Dresses</name>
+                    <title>Ingresar a la categoría Casual Dresses</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948050337' status='passed' stop='1646948050337'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0314c66a-b3c3-4358-9d77-d795c6ac921b-attachment.png' type='image/png' size='334835'/>
+                <attachment title='Screenshot' source='d4e930bd-7ec9-4dd2-a9c3-e037ab52c6a7-attachment.png' type='image/png' size='334835'/>
+            </attachments>
+        </test-case>
+        <test-case start='1646948060830' status='passed' stop='1646948068819'>
+            <name>Comparar página de producto</name>
+            <title>Comparar página de producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646948060831' status='passed' stop='1646948060831'>
+                    <name>Ingresar al artículo Printed Dress</name>
+                    <title>Ingresar al artículo Printed Dress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646948061002' status='passed' stop='1646948061002'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2d4fc771-96bc-4df3-b80c-c6bac75b5869-attachment.png' type='image/png' size='111080'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
