@@ -1,0 +1,310 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646938468133' stop='1646938559620'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1646938468135' status='passed' stop='1646938492396'>
+            <name>Debería acceder al sitio de login</name>
+            <title>Debería acceder al sitio de login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646938468391' status='passed' stop='1646938468391'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938482510' status='passed' stop='1646938482510'>
+                    <name>Ingresar al Login</name>
+                    <title>Ingresar al Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938483012' status='passed' stop='1646938483012'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='f8c2cd8a-37fd-4a46-962a-4942144512d0-attachment.png' type='image/png' size='87263'/>
+            </attachments>
+        </test-case>
+        <test-case start='1646938492421' status='passed' stop='1646938501804'>
+            <name>Debería ingresar los datos e ingresar al sitio</name>
+            <title>Debería ingresar los datos e ingresar al sitio</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646938492447' status='passed' stop='1646938492447'>
+                    <name>Completar el campo Email</name>
+                    <title>Completar el campo Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938492447' status='passed' stop='1646938492447'>
+                    <name>Enviar texto carmela.sotuyo+1@abstracta.com.uy a elemento</name>
+                    <title>Enviar texto carmela.sotuyo+1@abstracta.com.uy a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938493191' status='passed' stop='1646938493191'>
+                    <name>Completar el campo Contraseña</name>
+                    <title>Completar el campo Contraseña</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938493192' status='passed' stop='1646938493192'>
+                    <name>Enviar texto Login_123 a elemento</name>
+                    <title>Enviar texto Login_123 a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938494201' status='passed' stop='1646938494201'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646938501806' status='passed' stop='1646938507180'>
+            <name>Debería cerrar sesión</name>
+            <title>Debería cerrar sesión</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646938501807' status='passed' stop='1646938501807'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646938507181' status='passed' stop='1646938520152'>
+            <name>Debería acceder al sitio de login</name>
+            <title>Debería acceder al sitio de login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646938507181' status='passed' stop='1646938507181'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938512424' status='passed' stop='1646938512424'>
+                    <name>Ingresar al Login</name>
+                    <title>Ingresar al Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938512460' status='passed' stop='1646938512460'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='f162ebca-1de6-4420-8e47-9b467ef216d9-attachment.png' type='image/png' size='87263'/>
+            </attachments>
+        </test-case>
+        <test-case start='1646938520153' status='passed' stop='1646938527095'>
+            <name>Debería ingresar los datos e ingresar al sitio</name>
+            <title>Debería ingresar los datos e ingresar al sitio</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646938520154' status='passed' stop='1646938520154'>
+                    <name>Completar el campo Email</name>
+                    <title>Completar el campo Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938520154' status='passed' stop='1646938520154'>
+                    <name>Enviar texto carmela.sotuyo+2@abstracta.com.uy a elemento</name>
+                    <title>Enviar texto carmela.sotuyo+2@abstracta.com.uy a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938520745' status='passed' stop='1646938520745'>
+                    <name>Completar el campo Contraseña</name>
+                    <title>Completar el campo Contraseña</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938520745' status='passed' stop='1646938520745'>
+                    <name>Enviar texto 12345678 a elemento</name>
+                    <title>Enviar texto 12345678 a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938521210' status='passed' stop='1646938521210'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646938527095' status='passed' stop='1646938534464'>
+            <name>Debería cerrar sesión</name>
+            <title>Debería cerrar sesión</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646938527097' status='passed' stop='1646938527097'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646938534465' status='passed' stop='1646938554681'>
+            <name>Debería acceder al sitio de login</name>
+            <title>Debería acceder al sitio de login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646938534465' status='passed' stop='1646938534465'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938544840' status='passed' stop='1646938544840'>
+                    <name>Ingresar al Login</name>
+                    <title>Ingresar al Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938544868' status='passed' stop='1646938544868'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d393f9c2-df08-40e2-88bb-854e6a2032ff-attachment.png' type='image/png' size='87263'/>
+            </attachments>
+        </test-case>
+        <test-case start='1646938554682' status='passed' stop='1646938556819'>
+            <name>Debería ingresar los datos e ingresar al sitio</name>
+            <title>Debería ingresar los datos e ingresar al sitio</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646938554683' status='passed' stop='1646938554683'>
+                    <name>Completar el campo Email</name>
+                    <title>Completar el campo Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938554683' status='passed' stop='1646938554683'>
+                    <name>Enviar texto carmela.sotuyo+3@abstracta.com.uy a elemento</name>
+                    <title>Enviar texto carmela.sotuyo+3@abstracta.com.uy a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938554995' status='passed' stop='1646938554995'>
+                    <name>Completar el campo Contraseña</name>
+                    <title>Completar el campo Contraseña</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938554995' status='passed' stop='1646938554995'>
+                    <name>Enviar texto Contraseña1 a elemento</name>
+                    <title>Enviar texto Contraseña1 a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646938555281' status='passed' stop='1646938555281'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646938556820' status='passed' stop='1646938559619'>
+            <name>Debería cerrar sesión</name>
+            <title>Debería cerrar sesión</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646938556820' status='passed' stop='1646938556820'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

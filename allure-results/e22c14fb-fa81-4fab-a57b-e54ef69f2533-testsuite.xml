@@ -1,0 +1,318 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646939198407' stop='1646939295162'>
+    <name>Agregar al Carrito y Checkout</name>
+    <title>Agregar al Carrito y Checkout</title>
+    <test-cases>
+        <test-case start='1646939198409' status='passed' stop='1646939228275'>
+            <name>Debería ingresar a un producto</name>
+            <title>Debería ingresar a un producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646939198757' status='passed' stop='1646939198757'>
+                    <name>Abrir: /</name>
+                    <title>Abrir: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939212914' status='passed' stop='1646939212914'>
+                    <name>Buscar artículo: Blouse</name>
+                    <title>Buscar artículo: Blouse</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939213839' status='passed' stop='1646939213839'>
+                    <name>Enviar texto Blouse a elemento</name>
+                    <title>Enviar texto Blouse a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939219530' status='passed' stop='1646939219530'>
+                    <name>Ingresar al resultado de búsqueda</name>
+                    <title>Ingresar al resultado de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939219530' status='passed' stop='1646939219530'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939228218' status='passed' stop='1646939228218'>
+                    <name>Obtener nombre del artículo</name>
+                    <title>Obtener nombre del artículo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646939228275' status='passed' stop='1646939232419'>
+            <name>Debería agregar el producto al carrito</name>
+            <title>Debería agregar el producto al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646939228276' status='passed' stop='1646939228276'>
+                    <name>Agregar artículo al carrito</name>
+                    <title>Agregar artículo al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939228276' status='passed' stop='1646939228276'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939228492' status='passed' stop='1646939228492'>
+                    <name>Verificar mensaje de confirmacion</name>
+                    <title>Verificar mensaje de confirmacion</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939232168' status='passed' stop='1646939232168'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646939232420' status='passed' stop='1646939246264'>
+            <name>Debería acceder al carrito y avanzar al login</name>
+            <title>Debería acceder al carrito y avanzar al login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646939232421' status='passed' stop='1646939232421'>
+                    <name>Acceder al carrito</name>
+                    <title>Acceder al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939232541' status='passed' stop='1646939232541'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939237348' status='passed' stop='1646939237348'>
+                    <name>Verificar que el heading del paso coincida con el esperado</name>
+                    <title>Verificar que el heading del paso coincida con el esperado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939237648' status='passed' stop='1646939237648'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939246170' status='passed' stop='1646939246170'>
+                    <name>Verificar que el heading del paso coincida con el esperado</name>
+                    <title>Verificar que el heading del paso coincida con el esperado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646939246265' status='passed' stop='1646939254525'>
+            <name>Debería loguearse y avanzar a Addresses</name>
+            <title>Debería loguearse y avanzar a Addresses</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646939246265' status='passed' stop='1646939246265'>
+                    <name>Completar el campo Email</name>
+                    <title>Completar el campo Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939246265' status='passed' stop='1646939246265'>
+                    <name>Enviar texto carmela.sotuyo+1@abstracta.com.uy a elemento</name>
+                    <title>Enviar texto carmela.sotuyo+1@abstracta.com.uy a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939246603' status='passed' stop='1646939246603'>
+                    <name>Completar el campo Contraseña</name>
+                    <title>Completar el campo Contraseña</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939246603' status='passed' stop='1646939246603'>
+                    <name>Enviar texto Login_123 a elemento</name>
+                    <title>Enviar texto Login_123 a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939246889' status='passed' stop='1646939246889'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939254439' status='passed' stop='1646939254439'>
+                    <name>Verificar que el heading del paso coincida con el esperado</name>
+                    <title>Verificar que el heading del paso coincida con el esperado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646939254526' status='passed' stop='1646939260084'>
+            <name>Debería avanzar a Shipping</name>
+            <title>Debería avanzar a Shipping</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646939254527' status='passed' stop='1646939254527'>
+                    <name>Avanzar al siguiente paso del checkout</name>
+                    <title>Avanzar al siguiente paso del checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939254527' status='passed' stop='1646939254527'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939259970' status='passed' stop='1646939259970'>
+                    <name>Verificar que el heading del paso coincida con el esperado</name>
+                    <title>Verificar que el heading del paso coincida con el esperado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646939260085' status='passed' stop='1646939269079'>
+            <name>Debería aceptar los términos y avanzar al método de pago</name>
+            <title>Debería aceptar los términos y avanzar al método de pago</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646939260085' status='passed' stop='1646939260085'>
+                    <name>Aceptar los términos y condiciones</name>
+                    <title>Aceptar los términos y condiciones</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939260085' status='passed' stop='1646939260085'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939260316' status='passed' stop='1646939260316'>
+                    <name>Avanzar al siguiente paso del checkout</name>
+                    <title>Avanzar al siguiente paso del checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939260316' status='passed' stop='1646939260316'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939268971' status='passed' stop='1646939268971'>
+                    <name>Verificar que el heading del paso coincida con el esperado</name>
+                    <title>Verificar que el heading del paso coincida con el esperado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646939269079' status='passed' stop='1646939295160'>
+            <name>Debería elegir el método Bank Wire y  finalizar el checkout</name>
+            <title>Debería elegir el método Bank Wire y  finalizar el checkout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646939269080' status='passed' stop='1646939269080'>
+                    <name>Elegir método de pago</name>
+                    <title>Elegir método de pago</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939269080' status='passed' stop='1646939269080'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939278778' status='passed' stop='1646939278778'>
+                    <name>Verificar que el heading del paso coincida con el esperado</name>
+                    <title>Verificar que el heading del paso coincida con el esperado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939278878' status='passed' stop='1646939278878'>
+                    <name>Avanzar al siguiente paso del checkout</name>
+                    <title>Avanzar al siguiente paso del checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646939278878' status='passed' stop='1646939278878'>
+                    <name>Clickear elemento</name>
+                    <title>Clickear elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c43352a8-57ca-45d2-8e2e-b9df218f278c-attachment.png' type='image/png' size='98745'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
